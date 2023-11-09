@@ -6,4 +6,9 @@
         android:icon="@android:drawable/ic_menu_add"
         android:title="@string/task_add_new"
         app:showAsAction="ifRoom|withText" />
+
+    <item
+        android:id="@+id/show_subtitle"
+        android:title="@string/show_subtitle"
+        app:showAsAction="ifRoom" />
 </menu>
