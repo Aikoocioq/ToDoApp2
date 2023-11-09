@@ -26,7 +26,13 @@
     <Button
         android:id="@+id/task_date"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content"
+        android:clickable="false"
+        android:cursorVisible="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:autofillHints=""
+        android:inputType="date" />
 
     <CheckBox
         android:id="@+id/task_done"

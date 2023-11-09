@@ -17,3 +17,5 @@ o
 -app/src/main/java/pl/edu/pb/todoapp/Task.java,1\7\17f2a9112824e533e728015b44fa57c9f9958d18
 d
 4app/src/main/java/pl/edu/pb/todoapp/TaskStorage.java,3\0\3041be19eb8f321a4c81390d5dc67babcd2b3431
+a
+1app/src/main/java/pl/edu/pb/todoapp/Category.java,4\e\4ec8f6828967205a9bfcd4392999579ce4ed7cc5

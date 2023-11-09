@@ -1,5 +1,6 @@
 package pl.edu.pb.todoapp;
 
+import android.app.DatePickerDialog;
 import android.os.Bundle;
 import android.text.Editable;
 import android.text.TextWatcher;
@@ -9,19 +10,25 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.EditText;
+import android.widget.ImageView;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
+import java.util.Date;
+import java.util.Locale;
 import java.util.UUID;
 
 public class TaskFragment extends Fragment {
     private Task task;
     private EditText nameField;
-    private Button dateButton;
+    private Button dateField;
     private CheckBox doneCheckBox;
     public static final String ARG_TASK_ID = "task_id";
+    private final Calendar calendar = Calendar.getInstance();
     public TaskFragment() {}
     public static TaskFragment newInstance(UUID taskId) {
         Bundle bundle = new Bundle();
@@ -59,9 +66,17 @@ public class TaskFragment extends Fragment {
             public void afterTextChanged(Editable s) { }
         });
 
-        dateButton = view.findViewById(R.id.task_date);
-        dateButton.setText(task.getDate().toString());
-        dateButton.setEnabled(false);
+        dateField = view.findViewById(R.id.task_date);
+        DatePickerDialog.OnDateSetListener date = (view12, year, month, day) -> {
+            calendar.set(Calendar.YEAR, year);
+            calendar.set(Calendar.MONTH, month);
+            calendar.set(Calendar.DAY_OF_MONTH, day);
+            setupDateFieldValue(calendar.getTime());
+            task.setDate(calendar.getTime());
+        };
+        dateField.setOnClickListener(view1 ->
+                new DatePickerDialog(getContext(), date, calendar.get(Calendar.YEAR), calendar.get(Calendar.MONTH), calendar.get(Calendar.DAY_OF_MONTH)).show());
+        setupDateFieldValue(task.getDate());
 
         doneCheckBox = view.findViewById(R.id.task_done);
         doneCheckBox.setChecked(task.isDone());
@@ -69,5 +84,11 @@ public class TaskFragment extends Fragment {
             task.setDone(isChecked);
         });
         return view;
+    }
+
+    private void setupDateFieldValue(Date date) {
+        Locale locale = new Locale("pl", "PL");
+        SimpleDateFormat dateFormat = new SimpleDateFormat("dd.MM.yyyy", locale);
+        dateField.setText(dateFormat.format(date));
     }
 }

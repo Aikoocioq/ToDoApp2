@@ -17,3 +17,5 @@ i
 9app/src/main/java/pl/edu/pb/todoapp/TaskListFragment.java,1\4\14a750059a0d2893c8389e65a6fbc8f81cf6475b
 d
 4app/src/main/java/pl/edu/pb/todoapp/TaskStorage.java,3\0\3041be19eb8f321a4c81390d5dc67babcd2b3431
+a
+1app/src/main/java/pl/edu/pb/todoapp/Category.java,4\e\4ec8f6828967205a9bfcd4392999579ce4ed7cc5
