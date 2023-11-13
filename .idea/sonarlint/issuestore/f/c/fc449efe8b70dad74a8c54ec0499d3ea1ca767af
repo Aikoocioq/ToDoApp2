@@ -1,19 +1,19 @@
 
 £
-java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(æÑ¢şÿÿÿÿ8¹øË‡»1
+java:S1186$"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(æÑ¢şÿÿÿÿ8ıì¿®»1
 {
-java:S1450"YRemove the "dateButton" field and declare it as a local variable in the relevant methods.(ˆŸªùùÿÿÿÿ8»øË‡»1
+java:S1450 "^Remove the "categorySpinner" field and declare it as a local variable in the relevant methods.(É¿«©8ĞÁ®»1
 }
-java:S1450"[Remove the "doneCheckBox" field and declare it as a local variable in the relevant methods.(§¨âŸıÿÿÿÿ8»øË‡»1
+java:S1450!"[Remove the "doneCheckBox" field and declare it as a local variable in the relevant methods.(§¨âŸıÿÿÿÿ8şì¿®»1
 z
-java:S1450"XRemove the "nameField" field and declare it as a local variable in the relevant methods.(âê¸şÿÿÿÿ8»øË‡»1
+java:S1450"XRemove the "nameField" field and declare it as a local variable in the relevant methods.(âê¸şÿÿÿÿ8ÿì¿®»1
 Y
-java:S1874("7Remove this use of "getSerializable"; it is deprecated.(½‚°½ıÿÿÿÿ8ÉøË‡»1
+java:S18741"7Remove this use of "getSerializable"; it is deprecated.(½‚°½ıÿÿÿÿ8ˆí¿®»1
 
-java:S11865"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Ô—½48ËøË‡»1
+java:S1186>"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Ô—½48‹í¿®»1
 
-java:S1186="€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(íÑíÍ8ËøË‡»1
+java:S1186F"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(íÑíÍ8‹í¿®»1
+£
+java:S1186R"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¹Æº×şÿÿÿÿ8İÁ®»1
 N
-java:S1602F",Remove useless curly braces around statement(ìÑÔÿÿÿÿÿ8ÏøË‡»1
-S
-java:S1068"1Remove this unused "categoryImage" private field.(ŞãÃûÿÿÿÿ8ÑøË‡»1
+java:S1602f",Remove useless curly braces around statement(ìÑÔÿÿÿÿÿ8í¿®»1

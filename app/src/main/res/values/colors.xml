@@ -2,6 +2,8 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
-    <color name="purple">#8A4197</color>
-    <color name="light_purple">#AA65BC</color>
+    <color name="purple">#8A1954</color>
+    <color name="light_purple">#B13676</color>
+    <color name="color_menu">#91074E</color>
+    <color name="button_bg">#FFB700</color>
 </resources>

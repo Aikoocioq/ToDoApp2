@@ -5,10 +5,12 @@
         android:id="@+id/new_task"
         android:icon="@android:drawable/ic_menu_add"
         android:title="@string/task_add_new"
-        app:showAsAction="ifRoom|withText" />
+        app:showAsAction="ifRoom|withText"
+        android:textColor="@color/white" />
 
     <item
         android:id="@+id/show_subtitle"
         android:title="@string/show_subtitle"
-        app:showAsAction="ifRoom" />
+        app:showAsAction="ifRoom"
+        android:textColor="@color/white" />
 </menu>

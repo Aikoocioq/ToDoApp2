@@ -110,7 +110,7 @@ public class TaskListFragment extends Fragment {
         } else {
             adapter.notifyDataSetChanged();
         }
-        updateSubtitle(); //WYWOŁUJE BŁĄD
+        updateSubtitle();
     }
 
     public void updateSubtitle() {

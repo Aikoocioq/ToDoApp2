@@ -19,3 +19,11 @@ d
 4app/src/main/java/pl/edu/pb/todoapp/TaskStorage.java,3\0\3041be19eb8f321a4c81390d5dc67babcd2b3431
 a
 1app/src/main/java/pl/edu/pb/todoapp/Category.java,4\e\4ec8f6828967205a9bfcd4392999579ce4ed7cc5
+S
+#.idea/sonarlint/issuestore/index.pb,9\f\9fe84ebb15faf917b7def6236dba604453cc61e0
+]
+-.idea/sonarlint/securityhotspotstore/index.pb,8\8\88a9255124c95bdc913197c120a8d560edc59c8e
+Å
+Q.idea/sonarlint/securityhotspotstore/4/e/4ec8f6828967205a9bfcd4392999579ce4ed7cc5,5\1\51a7e4ce5130f9868ccd8f577a33d9f8e4d74da3
+w
+G.idea/sonarlint/issuestore/4/e/4ec8f6828967205a9bfcd4392999579ce4ed7cc5,c\7\c7abe4e80f1b822dd02d7f17182a838c463397df
